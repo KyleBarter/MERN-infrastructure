@@ -1,29 +1,19 @@
 /* CSS Custom Properties */
-:root {
-  --white: #FFFFFF;
-  --tan-1: #FBF9F6;
-  --tan-2: #E7E2DD;
-  --tan-3: #E2D9D1;
-  --tan-4: #D3C1AE;
-  --orange: #F67F00;
-  --text-light: #968c84;
-  --text-dark: #615954;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
-}
 
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
-  -webkit-font-smoothing: antialiased;
+  /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--tan-4);
-  padding: 2vmin;
+  background-color: white;
+  padding: 2vmin; */
   height: 100vh;
+  width: 100vw;
+  background-color: #44195e;
+  margin: 0rem;
+  color: #e4e4e4;
 }
 
 code {
@@ -31,123 +21,163 @@ code {
     monospace;
 }
 
-#root {
-  height: 100%;
-}
 
-.align-ctr {
+/* ! About and PP */
+.about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
-.align-rt {
-  text-align: right;
+.me-container-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
-.smaller {
-  font-size: smaller;
+.me-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
-.flex-ctr-ctr {
+.me-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#brand-statement {
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+/* ? software imgs */
+.software {
+  display: grid; 
+  grid-template-columns: repeat(6, 30px);
+  grid-gap: 10px;
+  padding: 15px;;
+}
+
+.software img{
+  height: 30px;
+  width: 30px;
+}
+
+
+
+/* ! Photog */
+
+.photog-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+} 
+
+.photography {
+  /* display: grid;
+  grid-template-columns: 100% 100% 100% 100%;
+  grid-gap: 20px 20px;  */
+}
+
+.photography img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 5px;
+}
+
+/* ! Nav */
+.nav-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
-.flex-j-end {
-  justify-content: flex-end;
-}
-
-.scroll-y {
-  overflow-y: scroll;
-}
-
-.section-heading {
+.navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  background-color: var(--tan-1);
-  color: var(--text-dark);
-  border: .1vmin solid var(--tan-3);
-  border-radius: 1vmin;
-  padding: .6vmin;
-  text-align: center;
-  font-size: 2vmin;
+  z-index: 1;
+  width: 1000px;
+  height: 150px;
+  gap: 20px;
 }
 
-.form-container {
-  padding: 3vmin;
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
-  border-radius: 1vmin;
-}
-
-p.error-message {
-  color: var(--orange);
-  text-align: center;
-}
-
-form {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 1.25vmin;
-  color: var(--text-light);
-}
-
-label {
-  font-size: 2vmin;
-  display: flex;
-  align-items: center;
-}
-
-input {
-  padding: 1vmin;
-  font-size: 2vmin;
-  border: .1vmin solid var(--tan-3);
-  border-radius: .5vmin;
-  color: var(--text-dark);
-  background-image: none !important; /* prevent lastpass */
-  outline: none;
-}
-
-input:focus {
-  border-color: var(--orange);
-}
-
-button, a.button {
-  margin: 1vmin;
-  padding: 1vmin;
-  color: var(--white);
-  background-color: var(--orange);
-  font-size: 2vmin;
-  font-weight: bold;
+.nav-link {
   text-decoration: none;
-  text-align: center;
-  border: .1vmin solid var(--tan-2);
-  border-radius: .5vmin;
-  outline: none;
-  cursor: pointer;
+  color: #e4e4e4;
+  font-size: large;
 }
 
-button.btn-sm {
-  font-size: 1.5vmin;
-  padding: .6vmin .8vmin;
+.nav-link:hover {
+  color: #fc6601;
 }
 
-button.btn-xs {
-  font-size: 1vmin;
-  padding: .4vmin .5vmin;
+/* ! Portfolio */
+
+.portfolio-container{
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-button:disabled, form:invalid button[type="submit"] {
-  cursor: not-allowed;
-  background-color: var(--tan-4);
+.portfolio-container  img {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
 }
 
-button[type="submit"] {
-  grid-column: span 2;
-  margin: 1vmin 0 0;
+.project-container {
+  display: grid;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-details {
+  grid-column: 1; /* Position the h1 and p tags in the "proj" area */
+}
+
+.port-image {
+  grid-column: 2; /* Position the image in the "image" area */
+}
+
+.port-link {
+  text-decoration: none;
+  color: #e4e4e4;
+}
+
+.port-link:hover {
+  text-decoration: underline;
+  color: #fc6601;
+}
+
+/* ? Mastermind */
+.mastermind-details {
+  width: 20rem;
+}
+
+/* ? 24Hours */
+.hours-details {
+  width: 20rem;
+}
+
+/* ? Adoptly */
+.adoptly-details {
+  width: 20rem;
+}
+
+/* ? Cheft */
+.cheft-details {
+  width: 20rem;
 }
