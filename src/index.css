@@ -32,6 +32,10 @@ code {
   text-align: center;
 }
 
+.about h1 {
+  font-weight: bold;
+}
+
 .me-container-container{
   display: flex;
   justify-content: center;
@@ -62,13 +66,14 @@ code {
 .software {
   display: grid; 
   grid-template-columns: repeat(6, 30px);
-  grid-gap: 10px;
-  padding: 15px;;
+  grid-gap: 20px;
+  padding: 15px
 }
 
 .software img{
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
 }
 
 
@@ -106,6 +111,7 @@ code {
 }
 
 .navbar {
+  position: -webkit-sticky;
   position: sticky;
   display: flex;
   justify-content: center;
@@ -159,6 +165,12 @@ code {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 0 5px #9D4EDD;
+  margin-bottom: 30px;
+}
+
+.port-image-container:hover {
+  background-color: #FF6D00;
+  box-shadow: 0 0 0 5px #FF9E00;
 }
 
 .project-container {
@@ -202,4 +214,30 @@ code {
 /* ? Cheft */
 .cheft-details {
   width: 20rem;
+}
+
+/* ! experience */
+
+.timeline-container {
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr;
+  align-items: start;
+  justify-items: center;
+}
+
+.timeline-line {
+  grid-column: 2;
+  margin-top: 15px;
+  border-left: 2px solid #240046;
+  height: 1000px;
+}
+
+.experience-left {
+  grid-column: 1;
+  text-align: left;
+}
+
+.experience-right {
+  grid-column: 3;
+  text-align: right;
 }

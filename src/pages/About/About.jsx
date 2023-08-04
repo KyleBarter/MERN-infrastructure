@@ -19,14 +19,16 @@ export default function About(){
                     I’ve primarily been working within the insurance industry in customer service 
                     with a spell working in the film industry as a camera assistant and some passion 
                     projects editing videos. Beyond wanting what’s best for myself, the best for everyone 
-                    else is at the core of my thoughts and actions day to day. Humans are complex and 
-                    every individual has their own needs separate from the rest, my goal is to reach out 
+                    else is at the core of my thoughts and actions day to day.
+                </p>
+                <p id="brand-statement">
+                    Humans are complex and every individual has their own needs separate from the rest, my goal is to reach out 
                     to humans in every corner of the globe as best I can. I took the next step into 
                     programming as I believe I can achieve this best with the capability to create anything
-                     I desire, or even anything I believe the public would desire. Having full control over
-                      creating the closest application possible to perfect; making people’s lives easier and 
-                      simpler.
+                    I desire, or even anything I believe the public would desire. Having full control over
+                    creating the closest application possible to perfect; making people’s lives easier and simpler.
                 </p>
+                
                 <p id="brand-statement">
                     I’ve grown as a developer through the software engineering immersive course with General 
                     assembly, where I have picked up JavaScript, Python, HTML and CSS. As well as operating in a 
