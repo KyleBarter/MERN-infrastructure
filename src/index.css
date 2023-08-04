@@ -2,18 +2,19 @@
 
 body {
   /* margin: 0; */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+  sans-serif; */
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
   padding: 2vmin; */
+  font-family: 'Quicksand', sans-serif;
   height: 100vh;
-  width: 100vw;
-  background-color: #44195e;
+  width: 100%;
+  background-color: #e4e4e4;
   margin: 0rem;
-  color: #e4e4e4;
+  color: #240046;
 }
 
 code {
@@ -91,7 +92,7 @@ code {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  margin: 5px;
+  margin: 6px;
 }
 
 /* ! Nav */
@@ -100,19 +101,25 @@ code {
   justify-content: center;
   align-items: center;
   position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navbar {
+  position: sticky;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
-  width: 1000px;
-  height: 150px;
+  width: 100%;
+  height: 100px;
   gap: 20px;
+  background-color:  #240046;
+  opacity: 0.7;
 }
 
 .nav-link {
+  position: sticky;
   text-decoration: none;
   color: #e4e4e4;
   font-size: large;
@@ -120,6 +127,7 @@ code {
 
 .nav-link:hover {
   color: #fc6601;
+  font-weight: bold;
 }
 
 /* ! Portfolio */
@@ -127,13 +135,30 @@ code {
 .portfolio-container{
   display: grid;
   grid-template-columns: 1fr;
+  
 }
 
 .portfolio-container  img {
-  width: 40vmin;
-  height: 56vmin;
+  width: 85%;
+  height: 85%;
   object-fit: cover;
-  object-position: 100% center;
+  border-radius: 15px;
+}
+
+.mastermind-image{
+  object-position: center top;
+}
+
+.port-image-container {
+  grid-column: 2; /* Position the image in the "image" area */
+  width: 50vmin;
+  height: 50vmin;
+  background-color: #240046;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0 5px #9D4EDD;
 }
 
 .project-container {
@@ -148,13 +173,10 @@ code {
   grid-column: 1; /* Position the h1 and p tags in the "proj" area */
 }
 
-.port-image {
-  grid-column: 2; /* Position the image in the "image" area */
-}
 
 .port-link {
   text-decoration: none;
-  color: #e4e4e4;
+  color: #240046;
 }
 
 .port-link:hover {

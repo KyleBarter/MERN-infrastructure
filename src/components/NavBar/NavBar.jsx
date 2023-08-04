@@ -14,11 +14,11 @@ export default function NavBar({ user, setUser }) {
       <nav className='navbar'>
         <Link to="/portfolio" className='nav-link'>Portfolio</Link>
         &nbsp;  &nbsp;
+        <Link to="/CV" className='nav-link'>Experience</Link>
+        &nbsp;  &nbsp;
         <Link to="/photography" className='nav-link'>Photography</Link>
         &nbsp;  &nbsp;
         <Link to="/videos" className='nav-link'>Video Editing</Link>
-        &nbsp;  &nbsp;
-        <Link to="/CV" className='nav-link'>CV</Link>
         &nbsp;  &nbsp;
         <Link to="/contact" className='nav-link'>Contact</Link>
         {/* <p>Welcome, {user.name}</p>

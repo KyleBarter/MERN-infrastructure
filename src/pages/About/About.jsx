@@ -13,7 +13,7 @@ export default function About(){
             <div className="about">
                 <h1>Kyle Barter</h1>
                 <br />
-                <h3>Junior Software Developer</h3>
+                <h3>Junior Full Stack Software Developer</h3>
                 <br />
                 <p id="brand-statement">
                     I’ve primarily been working within the insurance industry in customer service 
@@ -26,10 +26,11 @@ export default function About(){
                      I desire, or even anything I believe the public would desire. Having full control over
                       creating the closest application possible to perfect; making people’s lives easier and 
                       simpler.
-                    <br />
+                </p>
+                <p id="brand-statement">
                     I’ve grown as a developer through the software engineering immersive course with General 
                     assembly, where I have picked up JavaScript, Python, HTML and CSS. As well as operating in a 
-                    MERN stack, using the MVC model and other frameworks such as Postgres and Django. Also through 
+                    MERN stack, using the MVC model and other models such as PostgreSQL and Django. Also through 
                     group project work a better understanding of GitHub and using branches to work more efficiently.
                 </p>
                 <div className="software">

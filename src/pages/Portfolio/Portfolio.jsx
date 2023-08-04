@@ -17,7 +17,9 @@ export default function Portfolio(){
                                 <p>My first project with General Assembly during my Software Engineering Immersive course.</p>
                                 <p> We had a week to create a browser game with win / loss logic, in which I opted to create Mastermind.</p>
                                 </div>
-                                <img className="port-image" src="https://i.imgur.com/bG3vR2a.png" draggable="false"/>
+                                <div className='port-image-container'>
+                                        <img className="port-image mastermind-image" src="https://i.imgur.com/bG3vR2a.png" draggable="false"/>
+                                </div>
                         </div>
                         <div className='project-container hours-container'>
                                 <div className='hours-details'>
@@ -30,7 +32,9 @@ export default function Portfolio(){
                                         code, a goal planning app to help anyone who might find themselves stuck in a hole they
                                         can't get out of.</p>
                                 </div>
-                                <img className="port-image" src="https://i.imgur.com/wAKJmpf.png" draggable="false"/>
+                                <div className='port-image-container'>
+                                        <img className="port-image" src="https://i.imgur.com/wAKJmpf.png" draggable="false"/>
+                                </div>
                         </div>
                         <div className='project-container adoptly-container'>
                                 <div className='adoptly-details'>
@@ -39,7 +43,9 @@ export default function Portfolio(){
                         </Link>
                                 <p>Project description</p>
                                 </div>
-                                <img className="port-image" src="https://i.imgur.com/bG3vR2a.png" draggable="false"/>
+                                <div className='port-image-container'>
+                                        <img className="port-image" src="https://i.imgur.com/bG3vR2a.png" draggable="false"/>
+                                </div>
                         </div>
                         <div className='project-container cheft-container'>
                                 <div className='cheft-details' >
@@ -48,7 +54,9 @@ export default function Portfolio(){
                         </Link>
                                 <p>Project description</p>
                                 </div>
-                                <img className="port-image" src="https://i.imgur.com/qsperW2.png" draggable="false"/>
+                                <div className='port-image-container'>
+                                        <img className="port-image" src="https://i.imgur.com/qsperW2.png" draggable="false"/>
+                                </div>
                         </div>
                 </Fade>   
         </div>
