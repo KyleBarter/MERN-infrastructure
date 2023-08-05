@@ -1,34 +1,34 @@
 import { Fade } from 'react-awesome-reveal'
 
 export default function CV(){
-    // const timelineExperience = [
-    //     {
-    //         Experience: 'General Assembly Software Engineering immersive',
-    //         date: 'April 2023 - July 2023',
-    //         Summary: 'Summary goes here'
-    //     },
-    //     {
-    //         Experience: 'Employee Benefits Administrator',
-    //         date: 'April 2023 - July 2023',
-    //         Summary: 'Summary goes here'
-    //     },
-    //     {
-    //         Experience: 'General Assembly Software Engineering immersive',
-    //         date: 'April 2023 - July 2023',
-    //         Summary: 'Summary goes here'
-    //     },
-    //     {
-    //         Experience: 'General Assembly Software Engineering immersive',
-    //         date: 'April 2023 - July 2023',
-    //         Summary: 'Summary goes here'
-    //     },
-    //     {
-    //         Experience: 'Freelance 2nd Camera assistant',
-    //         date: 'April 2023 - July 2023',
-    //         Summary: 'Summary goes here'
-    //     },
+    const timelineExperience = [
+        {
+            Experience: 'General Assembly Software Engineering immersive',
+            date: 'April 2023 - July 2023',
+            Summary: 'Summary goes here'
+        },
+        {
+            Experience: 'Employee Benefits Administrator',
+            date: 'April 2023 - July 2023',
+            Summary: 'Summary goes here'
+        },
+        {
+            Experience: 'Technical Policy Investigator',
+            date: 'April 2023 - July 2023',
+            Summary: 'Summary goes here'
+        },
+        {
+            Experience: 'General Assembly Software Engineering immersive',
+            date: 'April 2023 - July 2023',
+            Summary: 'Summary goes here'
+        },
+        {
+            Experience: 'Freelance 2nd Camera assistant',
+            date: 'April 2023 - July 2023',
+            Summary: 'Summary goes here'
+        },
 
-    // ]
+    ]
     return (
         <div class="timeline-container">
             <div className="timeline-line">
