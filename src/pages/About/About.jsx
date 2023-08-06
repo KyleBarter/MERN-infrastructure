@@ -13,7 +13,7 @@ export default function About(){
             <div className="about">
                 <h1>Kyle Barter</h1>
                 <br />
-                <h3>Junior Full Stack Software Developer pls work this worked sending back</h3>
+                <h3>Junior Full Stack Software Developer</h3>
                 <br />
                 <p id="brand-statement">
                     I’ve primarily been working within the insurance industry in customer service 
