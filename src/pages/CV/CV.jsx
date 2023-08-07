@@ -30,7 +30,7 @@ export default function CV(){
 
     ]
     return (
-        <div class="timeline-container">
+        <div className="timeline-container">
             <div className="timeline-line">
                 <Fade direction='left'>
                     <div className="experience-left" id="GA">

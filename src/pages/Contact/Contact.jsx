@@ -39,43 +39,63 @@ export default function Contact(){
         return (
             <>
                 <div className="text-2xl">Thank you!</div>
-                <div className="text-md">We'll be in touch soon.</div>
+                <div className="text-md">I'll be in touch soon.</div>
             </>
         );
     }
 
 
     return (        
-        <div>
+        <div className='contact-form'>
             <form 
                 action={FORM_ENDPOINT}
                 onSubmit={handleSubmit}
                 method='POST'
             >
-                <input 
-                    type="text" 
-                    name="name" 
-                    placeholder="Your name" 
-                    required
-                />
-                <input 
-                    type="email" 
-                    placeholder='Your email'
-                    name='email'
-                    required
-                />
-                <textarea 
-                    name="message" 
-                    placeholder="Your message" 
-                    cols="30" 
-                    rows="10"
-                    required
-                />
-                <button
-                    type='submit'
-                >
-                    Send message
-                </button>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input 
+                                    type="text" 
+                                    name="name" 
+                                    placeholder= "Name" 
+                                    required
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input 
+                                    type="email" 
+                                    placeholder='Email'
+                                    name='email'
+                                    required
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea 
+                                    name="message" 
+                                    placeholder="Your message" 
+                                    cols="30" 
+                                    rows="10"
+                                    required
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <button
+                                type='submit'
+                            >
+                                Send message
+                            </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </form>
         </div>
     )

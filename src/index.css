@@ -182,6 +182,10 @@ code {
   object-position: center top;
 }
 
+.portfolio-container a {
+  grid-column: 2;
+}
+
 .port-image-container {
   grid-column: 2; /* Position the image in the "image" area */
   width: 50vmin;
@@ -267,4 +271,43 @@ code {
 .experience-right {
   grid-column: 3;
   text-align: right;
+}
+
+/* ! Contact */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #240046;
+  width: 60%;
+  border-radius: 15px ;
+  box-shadow: 0 0 0 5px #9D4EDD;
+  padding: 20px;
+  color: #240046;
+  margin-bottom: 30px;
+}
+
+.contact-form button {
+  margin-bottom: 30px;
+  color: #240046;
+  border-radius: 15px;
+}
+.contact-form button:hover {
+  background-color: #FF6D00;
+  box-shadow: 0 0 0 1px #FF9E00;
+  margin-bottom: 30px;
+}
+
+.contact-form input {
+  padding: 10px;
+  margin: 2%;
+  width: 30vmin;
+}
+
+.contact-form textarea {
+  padding: 15px;
+  width: 50vmin;
 }
