@@ -75,18 +75,26 @@ export default function CV(){
         //         </Fade>
         //     </div>
         // </div>
-        <VerticalTimeline>
+        <VerticalTimeline
+        layout='1-column-left'
+        animate=''
+        >
             {
                 timelineExperience.map(e => {
                     return (
                         <VerticalTimelineElement
                             key={e.key}
-                            date={e.date}
                         >
-                            <h3 className='vertical-timeline-element-title'>{e.experience}</h3>
-                            <h5 className='vertical-timeline-element-subtitle'>{e.business}</h5>
-                            <h5 className='vertical-timeline-element-subtitle'>{e.location}</h5>
-                            <p id="description">{e.summary}</p>
+                            <div className='experience-container'>
+                                <div className='experience box'>
+                                    <h3 className='vertical-timeline-element-title'>{e.experience}</h3>
+                                    <h6>{e.date}</h6>
+
+                                    <h5 className='vertical-timeline-element-subtitle'>{e.business}</h5>
+                                    <h5 className='vertical-timeline-element-subtitle'>{e.location}</h5>
+                                    <p id="description">{e.summary}</p>
+                                </div>
+                            </div>
 
                         </VerticalTimelineElement>
                     )

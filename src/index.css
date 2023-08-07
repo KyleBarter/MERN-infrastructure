@@ -249,7 +249,28 @@ code {
 
 /* ! experience */
 
-.timeline-container {
+/* .experience-container{
+
+}
+
+.experience-box{
+  border-radius: 15px;
+  border: #240046;
+} */
+
+.vertical-timeline-element-title {
+
+}
+
+.vertical-timeline-element-subtitle {
+
+}
+
+.vertical-timeline-element-subtitle {
+
+}
+
+/* .timeline-container {
   display: grid;
   grid-template-columns: 1fr 2px 1fr;
   align-items: start;
@@ -271,7 +292,7 @@ code {
 .experience-right {
   grid-column: 3;
   text-align: right;
-}
+} */
 
 /* ! Contact */
 
