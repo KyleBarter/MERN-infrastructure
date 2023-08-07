@@ -45,8 +45,7 @@ export default function Contact(){
     }
 
 
-    return (
-        
+    return (        
         <div>
             <form 
                 action={FORM_ENDPOINT}
