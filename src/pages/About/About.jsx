@@ -36,18 +36,54 @@ export default function About(){
                     group project work a better understanding of GitHub and using branches to work more efficiently.
                 </p>
                 <div className="software">
-                    <img src="https://i.imgur.com/IKbK4gz.png" className="software-img" id="HTML"/> 
-                    <img src="https://i.imgur.com/uqRQyO9.png" className="software-img" id="CSS"/>
-                    <img src="https://i.imgur.com/lMnU55u.png" className="software-img" id="node"/>
-                    <img src="https://i.imgur.com/RYP0JR8.png" className="software-img" id="react"/>
-                    <img src="https://i.imgur.com/P4iAuie.png" className="software-img" id="mongoDB"/>
-                    <img src="https://i.imgur.com/dYacXky.png" className="software-img" id="python"/>
-                    <img src="https://i.imgur.com/N60EtBO.png" className="software-img" id="django"/>
-                    <img src="https://i.imgur.com/gO7ES1a.png" className="software-img" id="postgreSQL"/>
-                    <img src="https://i.imgur.com/mIkjkqc.png" className="software-img" id="github"/>
-                    <img src="https://i.imgur.com/hIa0Rza.png" className="software-img" id="aws" />
-                    <img src="https://i.imgur.com/BhfJEwG.png" className="software-img" id="postman" />
-                    <img src="https://i.imgur.com/w9Sl2Ji.png" className="software-img" id="tableplus" />
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/IKbK4gz.png" className="software-img" id="HTML"/> 
+                        <span className="software-text">HTML5</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/uqRQyO9.png" className="software-img" id="CSS"/>
+                        <span className="software-text">CSS 3</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/lMnU55u.png" className="software-img" id="node"/>
+                        <span className="software-text">Node.js</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/RYP0JR8.png" className="software-img" id="react"/>
+                        <span className="software-text">React.js</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/P4iAuie.png" className="software-img" id="mongoDB"/>
+                        <span className="software-text">MongoDB</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/dYacXky.png" className="software-img" id="python"/>
+                        <span className="software-text">Python</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/N60EtBO.png" className="software-img" id="django"/>
+                        <span className="software-text">Django</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/gO7ES1a.png" className="software-img" id="postgreSQL"/>
+                        <span className="software-text">PSQL</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/mIkjkqc.png" className="software-img" id="github"/>
+                        <span className="software-text">GitHub</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/hIa0Rza.png" className="software-img" id="aws" />
+                        <span className="software-text">AWS</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/BhfJEwG.png" className="software-img" id="postman" />
+                        <span className="software-text">Postman</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/w9Sl2Ji.png" className="software-img" id="tableplus" />
+                        <span className="software-text">TablePlus</span>
+                    </div>
                 </div>
             </div>
         </>

@@ -66,7 +66,7 @@ code {
 .software {
   display: grid; 
   grid-template-columns: repeat(6, 30px);
-  grid-gap: 20px;
+  grid-gap: 30px;
   padding: 15px
 }
 
@@ -76,7 +76,34 @@ code {
   padding: 10px;
 }
 
+.software-container {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
 
+.software-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #240046;
+  text-align: center;
+  padding: 5px;
+  visibility: hidden; /* Hide the text by default */
+  opacity: 0;
+  font-weight: bold;
+}
+
+.software-container:hover .software-text {
+  visibility: visible;
+  opacity: 1;
+}
+.software-container:hover .software-img {
+  visibility: hidden;
+  opacity: 0;
+}
 
 /* ! Photog */
 
