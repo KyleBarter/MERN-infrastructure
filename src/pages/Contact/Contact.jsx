@@ -45,58 +45,70 @@ export default function Contact(){
     }
 
 
-    return (        
-        <div className='contact-form'>
-            <form 
-                action={FORM_ENDPOINT}
-                onSubmit={handleSubmit}
-                method='POST'
-            >
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <input 
-                                    type="text" 
-                                    name="name" 
-                                    placeholder= "Name" 
-                                    required
-                                />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input 
-                                    type="email" 
-                                    placeholder='Email'
-                                    name='email'
-                                    required
-                                />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <textarea 
-                                    name="message" 
-                                    placeholder="Your message" 
-                                    cols="30" 
-                                    rows="10"
-                                    required
-                                />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                            <button
-                                type='submit'
-                            >
-                                Send message
-                            </button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </form>
-        </div>
+    return (    
+        <div className='form-container'>
+            <div className='contact-form'>
+                <form 
+                    action={FORM_ENDPOINT}
+                    onSubmit={handleSubmit}
+                    method='POST'
+                >
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input 
+                                        type="text" 
+                                        name="name" 
+                                        placeholder= "Name" 
+                                        required
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input 
+                                        type="email" 
+                                        placeholder='Email'
+                                        name='email'
+                                        required
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input 
+                                        type="text" 
+                                        placeholder='Number'
+                                        name='number'
+                                        required
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea 
+                                        name="message" 
+                                        placeholder="Your message" 
+                                        cols="30" 
+                                        rows="10"
+                                        required
+                                    />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                <button
+                                    type='submit'
+                                >
+                                    Send message
+                                </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>    
     )
 }

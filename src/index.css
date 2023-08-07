@@ -59,7 +59,7 @@ code {
   width: 50rem;
   display: flex;
   justify-content: center;
-
+  width: 70vmin;
 }
 
 /* ? software imgs */
@@ -155,7 +155,7 @@ code {
   position: sticky;
   text-decoration: none;
   color: #e4e4e4;
-  font-size: large;
+  font-size: 2vmin;
 }
 
 .nav-link:hover {
@@ -275,6 +275,10 @@ code {
 
 /* ! Contact */
 
+.form-container {
+  margin-bottom: 30px;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -311,3 +315,4 @@ code {
   padding: 15px;
   width: 50vmin;
 }
+
