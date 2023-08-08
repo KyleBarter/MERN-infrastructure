@@ -1,5 +1,7 @@
 import { Fade } from 'react-awesome-reveal'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css';
+
 
 export default function CV(){
     const timelineExperience = [
@@ -76,14 +78,16 @@ export default function CV(){
         //     </div>
         // </div>
         <VerticalTimeline
-        layout='1-column-left'
-        animate=''
+        layout={ '1-column-left' }
+        animate= { true }
+        lineColor={ 'purple' }
         >
             {
                 timelineExperience.map(e => {
                     return (
                         <VerticalTimelineElement
                             key={e.key}
+                            position={ 'left' }
                         >
                             <div className='experience-container'>
                                 <div className='experience box'>

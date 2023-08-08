@@ -18,8 +18,8 @@ export default function NavBar({ user, setUser }) {
         &nbsp;  &nbsp;
         <Link to="/photography" className='nav-link'>Photography</Link>
         &nbsp;  &nbsp;
-        <Link to="/videos" className='nav-link'>Video Editing</Link>
-        &nbsp;  &nbsp;
+        {/* <Link to="/videos" className='nav-link'>Video Editing</Link> */}
+        {/* &nbsp;  &nbsp; */}
         <Link to="/contact" className='nav-link'>Contact</Link>
         {/* <p>Welcome, {user.name}</p>
         &nbsp; &nbsp;<Link to="" onClick={handleLogOut}>Log Out</Link> */}
