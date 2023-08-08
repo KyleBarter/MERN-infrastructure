@@ -258,9 +258,17 @@ code {
 .portfolio-show-container h1 {
   grid-column: 1;
 }
+
 .portfolio-show-container h3 {
   grid-column: 1;
 }
+
+.portfolio-show-container ul {
+  grid-column: 1;
+  width: 50vmin;
+  text-align: center;
+}
+
 .portfolio-show-container p {
   grid-column: 1;
   width: 50vmin;
@@ -288,7 +296,7 @@ code {
 .portfolio-img-container {
   grid-column: 2; /* Position the image in the "image" area */
   width: 50vmin;
-  height: 50vmin;
+  height: 65vmin;
   background-color: #240046;
   border-radius: 15px;
   display: flex;
