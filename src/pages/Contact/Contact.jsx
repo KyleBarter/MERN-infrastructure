@@ -81,7 +81,6 @@ export default function Contact(){
                                         type="text" 
                                         placeholder='Number'
                                         name='number'
-                                        required
                                     />
                                 </td>
                             </tr>

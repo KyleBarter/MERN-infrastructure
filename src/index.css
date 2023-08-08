@@ -247,6 +247,58 @@ code {
   width: 20rem;
 }
 
+
+/* ! Portfolio show */
+
+.portfolio-show-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.portfolio-show-container h1 {
+  grid-column: 1;
+}
+.portfolio-show-container h3 {
+  grid-column: 1;
+}
+.portfolio-show-container p {
+  grid-column: 1;
+  width: 50vmin;
+}
+
+.portfolio-show-container a {
+  grid-column: 1;
+  text-decoration: none;
+  text-align: center;
+}
+.portfolio-show-container a:hover {
+  grid-column: 1;
+  text-decoration: underline;
+  font-weight: bolder;
+  color: #fc6601;
+}
+
+.portfolio-img-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.portfolio-img-container {
+  grid-column: 2; /* Position the image in the "image" area */
+  width: 50vmin;
+  height: 50vmin;
+  background-color: #240046;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0 5px #9D4EDD;
+  margin-bottom: 30px;
+}
+
+
 /* ! experience */
 
 /* .experience-container{
