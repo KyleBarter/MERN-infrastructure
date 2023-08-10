@@ -47,6 +47,13 @@ export default function Contact(){
 
     return (    
         <div className='form-container'>
+            <h1>Feel free to find me here or use the message board</h1>
+            <a href="https://www.linkedin.com/in/kyle-barter-039bb0107/">
+                <img src="https://i.imgur.com/vi1aLbh.png"  />
+            </a>
+            <a href="https://github.com/KyleBarter">
+                <img src="https://i.imgur.com/mIkjkqc.png"  />
+            </a>
             <div className='contact-form'>
                 <form 
                     action={FORM_ENDPOINT}
@@ -79,7 +86,7 @@ export default function Contact(){
                                 <td>
                                     <input 
                                         type="text" 
-                                        placeholder='Number'
+                                        placeholder='Number (optional)'
                                         name='number'
                                     />
                                 </td>

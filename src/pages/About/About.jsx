@@ -25,7 +25,7 @@ export default function About(){
                     Humans are complex and every individual has their own needs separate from the rest, my goal is to reach out 
                     to humans in every corner of the globe as best I can. I took the next step into 
                     programming as I believe I can achieve this best with the capability to create anything
-                    I desire, or even anything I believe the public would desire. Having full control over
+                   . Having full control over
                     creating the closest application possible to perfect; making people’s lives easier and simpler.
                 </p>
                 
@@ -45,8 +45,16 @@ export default function About(){
                         <span className="software-text">CSS 3</span>
                     </div>
                     <div className="software-container">
+                        <img src="https://i.imgur.com/dDGV7As.png" className="software-img" id="JS" />
+                        <span className="software-text">JavaScript</span>
+                    </div>
+                    <div className="software-container">
                         <img src="https://i.imgur.com/lMnU55u.png" className="software-img" id="node"/>
                         <span className="software-text">Node.js</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/TE2Ms71.png" className="software-img" id="express" />
+                        <span className="software-text">Express.js</span>
                     </div>
                     <div className="software-container">
                         <img src="https://i.imgur.com/RYP0JR8.png" className="software-img" id="react"/>
@@ -77,12 +85,28 @@ export default function About(){
                         <span className="software-text">AWS</span>
                     </div>
                     <div className="software-container">
+                        <img src="https://i.imgur.com/YN50Dag.png" className="software-img" id="oauth" />
+                        <span className="software-text">OAuth 2.0</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/bATizxl.png" className="software-img" id="jwt" />
+                        <span className="software-text">JWT</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/a2kXkTz.png" className="software-img" id="npm" />
+                        <span className="software-text">NPM</span>
+                    </div>
+                    <div className="software-container">
                         <img src="https://i.imgur.com/BhfJEwG.png" className="software-img" id="postman" />
                         <span className="software-text">Postman</span>
                     </div>
                     <div className="software-container">
                         <img src="https://i.imgur.com/w9Sl2Ji.png" className="software-img" id="tableplus" />
                         <span className="software-text">TablePlus</span>
+                    </div>
+                    <div className="software-container">
+                        <img src="https://i.imgur.com/5kNrJm4.png" className="software-img" id="figma" />
+                        <span className="software-text">Figma</span>
                     </div>
                 </div>
             </div>

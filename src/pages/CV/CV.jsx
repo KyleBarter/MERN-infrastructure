@@ -1,6 +1,8 @@
 import { Fade } from 'react-awesome-reveal'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css';
+import { useState } from 'react'
+
 
 
 export default function CV(){
@@ -11,7 +13,7 @@ export default function CV(){
             business: 'General Assembly',
             location: 'Remote',
             date: 'April 2023 - July 2023',
-            summary: 'Summary goes here'
+            summary: 'Immersive bootcamp with the award winning General Assembly, covering full stack software development. This course not only expanded my skills as a developer, but also through teaching industry best practices, CLI, work based problems and using version control systmes such as GitHub.'
         },
         {
             id: 2,
@@ -19,7 +21,7 @@ export default function CV(){
             business: 'MetLife',
             location: 'Brighton',
             date: 'January 2022 - April 2023',
-            summary: 'Summary goes here'
+            summary: 'Ensured the renewal process of income protection and group life schemes with businesses were dealt with in a timely manner, as well as answering general queries. Proactively managing and processing accounts for multiple clients, ensuring they were up to date whilst achieving multiple sign offs on processes such as data requests, letters of authority and refunds.'
         },
         {
             id: 3,
@@ -27,15 +29,15 @@ export default function CV(){
             business: 'Markerstudy',
             location: 'Haywards Heath',
             date: 'July 2019 - January 2022',
-            summary: 'Summary goes here'
+            summary: 'Reviewed referrals against each product for the criteria and applied these, with ratings, across multiple products including commercial and private vehicles, as well as motorcycles. Requiring a meticulous review of the misrepresentation to give a fair and honest outcome for both the business and the client.'
         },
         {
             id: 4,
             experience: 'Claims Handler',
-            business: 'Haywards Heath',
-            location: 'Remote',
+            business: 'Markerstudy',
+            location: 'Haywards Heath',
             date: 'July 2017 - July 2019',
-            summary: 'Summary goes here'
+            summary: "Improving the customer journey experience by handling calls and emails, progressing claims. Using strong time management skills to meet targets and KPIs to keep the department's SLA green"
         },
         {
             id: 5,
@@ -43,42 +45,15 @@ export default function CV(){
             business: 'Freelance',
             location: 'Various',
             date: 'February 2017 - July 2017',
-            summary: 'Summary goes here'
-        },
-
+            summary: "Multiple shoots including music videos and short films. These include 'Stealing Silver', 'The Real Target' and 'Radio'. This fast-paced environemnt led to quick problem solving on the spot whilst working efficiently within a small, ever changing team from shoot to shoot."
+        }
     ]
+
+    let iconStyle = { background: "#9D4EDD"}
     return (
-        // <div className="timeline-container">
-        //     <div className="timeline-line">
-        //         <Fade direction='left'>
-        //             <div className="experience-left" id="GA">
-        //                 <h1>GA</h1>
-        //             </div>
-        //         </Fade>
-        //         <Fade direction='right'>
-        //             <div className="experience-right" id="metlife">
-        //                 <h1>Metlife</h1>
-        //             </div>
-        //         </Fade>
-        //         <Fade direction='left'>
-        //             <div className="experience-left" id="uw">
-        //                 <h1>Tech</h1>
-        //             </div>
-        //         </Fade>
-        //         <Fade direction='right'>
-        //             <div className="experience-right" id="claims">
-        //                 <h1>Claims</h1>
-        //             </div>
-        //         </Fade>
-        //         <Fade direction='left'>
-        //             <div className="experience-left" id="camera">
-        //                 <h1>2nd</h1>
-        //             </div>
-        //         </Fade>
-        //     </div>
-        // </div>
+
         <VerticalTimeline
-        layout={ '1-column-left' }
+        
         animate= { true }
         lineColor={ 'purple' }
         >
@@ -87,19 +62,17 @@ export default function CV(){
                     return (
                         <VerticalTimelineElement
                             key={e.key}
-                            position={ 'left' }
+                            iconStyle={ iconStyle }
+                            // position={ 'left' }
                         >
-                            <div className='experience-container'>
-                                <div className='experience box'>
-                                    <h3 className='vertical-timeline-element-title'>{e.experience}</h3>
-                                    <h6>{e.date}</h6>
+                            {/* <p id="description">{e.summary}</p> */}
 
-                                    <h5 className='vertical-timeline-element-subtitle'>{e.business}</h5>
-                                    <h5 className='vertical-timeline-element-subtitle'>{e.location}</h5>
-                                    <p id="description">{e.summary}</p>
-                                </div>
-                            </div>
+                                <h3 className='vertical-timeline-element-title'>{e.experience}</h3>
+                                <h4>{e.date}</h4>
 
+                                <h5 className='vertical-timeline-element-subtitle'>{e.business}</h5>
+                                <h5 className='vertical-timeline-element-subtitle'>{e.location}</h5>
+                                <p id="description">{e.summary}</p>
                         </VerticalTimelineElement>
                     )
                 })
