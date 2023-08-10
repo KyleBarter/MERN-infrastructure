@@ -70,6 +70,8 @@ code {
   padding: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
 }
 
 .software img{
@@ -128,6 +130,31 @@ code {
   object-fit: cover;
   margin: 6px;
 }
+
+/* .photography-individual {
+  position: relative;
+  text-align: center;
+} */
+
+/* .photog-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #240046;
+  color: transparent;
+  text-align: center;
+  padding: 5px;
+  visibility: hidden; 
+  opacity: 0;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+.photography-individual:hover .photog-text {
+  visibility: visible;
+  opacity: 1;
+} */
 
 /* ! Nav */
 .nav-container {
