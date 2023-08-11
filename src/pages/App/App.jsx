@@ -15,6 +15,12 @@ import Mastermind from '../Mastermind/Mastermind';
 import Hours from '../24hours/24hours'
 import Adoptly from '../Adoptly/Adoptly';
 import Cheft from '../Cheft/Cheft';
+import VideoCharlie from '../VideoCharlie/VideoCharlie';
+import VideoLouis from '../VideoLouis/VideoLouis';
+import VideoDubai from '../VideoDubai/VideoDubai';
+import VideoMandarins from '../VideoMandarin/VideoMandarins'
+import VideoSkwad from '../VideoSkwad/VideoSkwad'
+import VideoNoProblem from '../VideoNP/VideoNP';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -35,6 +41,12 @@ export default function App() {
               <Route path="/portfolio/24hours" element={<Hours/>} />
               <Route path="/portfolio/adoptly" element={<Adoptly/>} />
               <Route path="/portfolio/cheft" element={<Cheft/>} />
+              <Route path="/videos/charlie" element={<VideoCharlie/>} />
+              <Route path="/videos/dubai" element={<VideoDubai/>} />
+              <Route path="/videos/louis" element={<VideoLouis/>} />
+              <Route path="/videos/skwad" element={<VideoSkwad/>} />
+              <Route path="/videos/no-siege-no-problem" element={<VideoNoProblem/>} />
+              <Route path="/videos/mandarins" element={<VideoMandarins/>} />
             </Routes>
           </>
     </main>
