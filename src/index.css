@@ -33,7 +33,11 @@ code {
 }
 
 .about h1 {
-  font-weight: bold;
+  font-weight: bolder;
+}
+
+.about h3 {
+  font-weight: bolder;
 }
 
 .me-container-container{
@@ -60,6 +64,7 @@ code {
   display: flex;
   justify-content: center;
   width: 70vmin;
+  font-weight: bold;
 }
 
 /* ? software imgs */
@@ -477,4 +482,11 @@ code {
 
 .form-container img:hover{
   width: 45px;
+}
+
+/* ! Videos */
+
+.video-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

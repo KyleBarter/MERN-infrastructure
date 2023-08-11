@@ -74,7 +74,7 @@ export default function Portfolio(){
                                         </a>
                                 </div>
                                 <p>My third project and first group project with General Assembly. For this, we were briefed to 
-                                        create an application with a set mission in mind, with an issue we wanted to set out to fix. Step up, Adoptly.
+                                        create an application with a set mission in mind, with an issue close to our team's hearts we wanted to set out to fix. Step up, Adoptly.
                                 </p>
                                 <p>Using Python, Django and PostgreSQL, my team and I set out to create an app that helps the user find their 
                                         'pawfect' match with pets up for adoption; in an attempt to give every animal a deserved home.
