@@ -14,6 +14,11 @@ export default function Portfolio(){
                         {/* <Link to="/portfolio/mastermind" className='port-link'> */}
                                 <h1>Mastermind</h1>
                         {/* </Link> */}
+                                <div className='git-link-container'>
+                                <a href="https://github.com/KyleBarter/Mastermind">
+                                        <img className="git-link" src="https://i.imgur.com/mIkjkqc.png" />
+                                </a>
+                                </div>
                                 <p>My first project with General Assembly during my Software Engineering Immersive course.</p>
                                 <p> We had a week to create a browser game with win / loss logic, in which I opted to create Mastermind.</p>
                                 <div className='used-software-container'>
@@ -33,6 +38,11 @@ export default function Portfolio(){
                         {/* <Link to="/portfolio/24hours" className='port-link'> */}
                                 <h1>24Hours</h1>
                         {/* </Link> */}
+                                <div className='git-link-container'>
+                                        <a href="https://github.com/KyleBarter/24hours">
+                                                <img className="git-link" src="https://i.imgur.com/mIkjkqc.png" />
+                                        </a>
+                                </div>
                                 <p>The second project with General Assembly, we were briefed to create a CRUD app using 
                                         MongoDB, Node.js and Express. </p>
                                 <p>I went with an app which I wanted to create when I first started teaching myself how to
@@ -58,6 +68,11 @@ export default function Portfolio(){
                         {/* <Link to="/portfolio/adoptly" className='port-link'> */}
                                 <h1>Adoptly</h1>
                         {/* </Link> */}
+                                <div className='git-link-container'>
+                                        <a href="https://github.com/KyleBarter/Adoptly">
+                                                <img className="git-link" src="https://i.imgur.com/mIkjkqc.png" />
+                                        </a>
+                                </div>
                                 <p>My third project and first group project with General Assembly. For this, we were briefed to 
                                         create an application with a set mission in mind, with an issue we wanted to set out to fix. Step up, Adoptly.
                                 </p>
@@ -70,7 +85,7 @@ export default function Portfolio(){
                                         <img src="https://i.imgur.com/dYacXky.png" className='used-software' />
                                         <img src="https://i.imgur.com/N60EtBO.png" className='used-software' />
                                         <img src="https://i.imgur.com/gO7ES1a.png" className='used-software' />
-                                        <img src="https://i.imgur.com/hIa0Rza.png" className='used-software' />
+                                        <img src="https://i.imgur.com/uCXTSvX.png" className='used-software' />
                                 </div>
                                 </div>
                                 <div className='port-image-container'>
@@ -82,6 +97,11 @@ export default function Portfolio(){
                         {/* <Link to="/portfolio/cheft" className='port-link'> */}
                                 <h1>Cheft</h1>
                         {/* </Link> */}
+                                <div className='git-link-container'>
+                                        <a href="https://github.com/KyleBarter/cheft">
+                                                <img className="git-link" src="https://i.imgur.com/mIkjkqc.png" />
+                                        </a>
+                                </div>
                                 <p>My fourth and final project during my time with General Assembly was to create an app using React.js for the front end.
                                         We could create a functioning CRUD app, or something which consumes an API.
                                 </p>

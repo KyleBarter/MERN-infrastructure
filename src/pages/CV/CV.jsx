@@ -13,7 +13,7 @@ export default function CV(){
             business: 'General Assembly',
             location: 'Remote',
             date: 'April 2023 - July 2023',
-            summary: 'Immersive bootcamp with the award winning General Assembly, covering full stack software development. This course not only expanded my skills as a developer, but also through teaching industry best practices, CLI, work based problems and using version control systmes such as GitHub.'
+            summary: 'Immersive bootcamp with the award winning General Assembly, covering full stack software development. This course not only expanded my skills as a developer, but also through teaching industry best practices, the CLI, work based problems and using version control systems such as GitHub.'
         },
         {
             id: 2,
@@ -68,7 +68,7 @@ export default function CV(){
                             {/* <p id="description">{e.summary}</p> */}
 
                                 <h3 className='vertical-timeline-element-title'>{e.experience}</h3>
-                                <h4>{e.date}</h4>
+                                <h6>{e.date}</h6>
 
                                 <h5 className='vertical-timeline-element-subtitle'>{e.business}</h5>
                                 <h5 className='vertical-timeline-element-subtitle'>{e.location}</h5>

@@ -65,24 +65,25 @@ code {
 /* ? software imgs */
 .software {
   display: grid; 
-  grid-template-columns: repeat(6, 30px);
+  grid-template-columns: repeat(6, 60px);
   grid-gap: 50px;
   padding: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
   justify-content: center;
+  font-size: 1.5vmin;
 }
 
 .software img{
-  height: 150%;
-  width: 150%;
+  height: 100%;
+  width: 100%;
 }
 
 .software-container {
   position: relative;
-  height: 3vmin;
-  width: 3vmin;
+  height: 5vmin;
+  width: 5vmin;
   padding: 2px;
   text-align: center;
 }
@@ -200,12 +201,6 @@ code {
   
 }
 
-.portfolio-container  img {
-  width: 85%;
-  height: 85%;
-  object-fit: cover;
-  border-radius: 15px;
-}
 
 .mastermind-image{
   object-position: center top;
@@ -226,6 +221,13 @@ code {
   align-items: center;
   box-shadow: 0 0 0 5px #9D4EDD;
   margin-bottom: 30px;
+}
+
+.port-image-container  img {
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 .port-image-container:hover {
@@ -250,10 +252,32 @@ code {
   text-decoration: none;
   color: #240046;
 }
+.port-link img {
+  text-decoration: none;
+  color: #240046;
+  border-radius: 15px;
+}
 
 .port-link:hover {
   text-decoration: underline;
   color: #fc6601;
+}
+
+.git-link-container {
+  height: 3vmin;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 0 0.25vmin #9D4EDD;
+}
+
+.git-link {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+
+.git-link-container:hover {
+  box-shadow: 0 0 0 0.25vmin #fc6601;
 }
 
 /* ? Mastermind */
@@ -364,19 +388,11 @@ code {
 
 /* ! experience */
 
-/* .experience-container{
-
-}
-
-.experience-box{
-  border-radius: 15px;
-  border: #240046;
-} */
 
 .vertical-timeline-element-content {
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
   0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
-  padding: 2em 3em !important
+  padding: 2em 3em !important;
 }
 
 .vertical-timeline-element-title {
@@ -397,30 +413,6 @@ code {
   opacity: 1;
 }
 
-
-/* .timeline-container {
-  display: grid;
-  grid-template-columns: 1fr 2px 1fr;
-  align-items: start;
-  justify-items: center;
-}
-
-.timeline-line {
-  grid-column: 2;
-  margin-top: 15px;
-  border-left: 2px solid #240046;
-  height: 1000px;
-}
-
-.experience-left {
-  grid-column: 1;
-  text-align: left;
-}
-
-.experience-right {
-  grid-column: 3;
-  text-align: right;
-} */
 
 /* ! Contact */
 
@@ -478,10 +470,11 @@ code {
 }
 
 .form-container img{
-  width: 50px;
+  width: 40px;
   margin-right: 15px ;
+  margin-top: 30px;
 }
 
 .form-container img:hover{
-  width: 55px;
+  width: 45px;
 }

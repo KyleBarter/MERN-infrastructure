@@ -47,7 +47,6 @@ export default function Contact(){
 
     return (    
         <div className='form-container'>
-            <h1>Feel free to find me here or use the message board</h1>
             <a href="https://www.linkedin.com/in/kyle-barter-039bb0107/">
                 <img src="https://i.imgur.com/vi1aLbh.png"  />
             </a>

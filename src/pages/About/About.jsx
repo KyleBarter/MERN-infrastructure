@@ -81,7 +81,7 @@ export default function About(){
                         <span className="software-text">GitHub</span>
                     </div>
                     <div className="software-container">
-                        <img src="https://i.imgur.com/hIa0Rza.png" className="software-img" id="aws" />
+                        <img src="https://i.imgur.com/uCXTSvX.png" className="software-img" id="aws" />
                         <span className="software-text">AWS</span>
                     </div>
                     <div className="software-container">
