@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Fade } from "react-awesome-reveal";
+import { forwardRef } from "react"
 
 
 export default function Portfolio(){
@@ -133,3 +134,4 @@ export default function Portfolio(){
 
     )
 }
+

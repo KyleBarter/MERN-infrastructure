@@ -285,6 +285,10 @@ code {
   box-shadow: 0 0 0 0.25vmin #fc6601;
 }
 
+.project-container p {
+  text-align: left;
+}
+
 /* ? Mastermind */
 .mastermind-details {
   width: 20rem;
@@ -330,6 +334,21 @@ code {
   max-width: 25%;
   padding: 2%;
   max-height: 40px;
+}
+
+@media (max-width: 768px) {
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .port-image-container {
+    /* Change grid-column to 1 for smaller screens */
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+    /* You can modify the width, height, and other styles for smaller screens if needed */
+  }
 }
 
 /* ! Portfolio show */
@@ -490,3 +509,6 @@ code {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+
+
