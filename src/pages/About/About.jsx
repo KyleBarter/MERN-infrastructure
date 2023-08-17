@@ -16,9 +16,7 @@ export default function About(){
                 <h3>Junior Full Stack Software Developer</h3>
                 <br />
                 <p id="brand-statement">
-                    I’ve primarily been working within the insurance industry in customer service 
-                    with a spell working in the film industry as a camera assistant and some passion 
-                    projects editing videos. I've always had a creative itch be that through filming, video editing or 
+                    I've always had a creative itch be that through filming, video editing or 
                     through my photography. Coding not only scratches that itch, but keeps me coming back for more 
                     in the ever-evolving world of tech.
                 </p>
@@ -38,7 +36,7 @@ export default function About(){
                     more efficiently.
                 </p>
                 <p id="brand-statement">
-                    You can check out some of the other technologies I've used and am proficient with below, don't be afraid to hover!
+                    Have a hover below to see all the technologies I have become proficient with in both my own time and with General Assembly.
                 </p>
 
                 <div className="software">
