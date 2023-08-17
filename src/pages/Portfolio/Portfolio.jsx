@@ -23,9 +23,15 @@ export default function Portfolio(){
                                 <p>My first project with General Assembly during my Software Engineering Immersive course.</p>
                                 <p> We had a week to create a browser game with win / loss logic, in which I opted to create Mastermind.</p>
                                 <div className='used-software-container'>
-                                        <img src="https://i.imgur.com/IKbK4gz.png" className='used-software' />
-                                        <img src="https://i.imgur.com/uqRQyO9.png" className='used-software' />
-                                        <img src="https://i.imgur.com/dDGV7As.png" className='used-software' />
+                                        <img src="https://i.imgur.com/IKbK4gz.png" className='used-software' id="HTML"/>
+                                        <span className="software-text">HTML5</span>
+
+                                        <img src="https://i.imgur.com/uqRQyO9.png" className='used-software' id="CSS"/>
+                                        <span className="software-text">CSS</span>
+
+                                        <img src="https://i.imgur.com/dDGV7As.png" className='used-software' id="JS"/>
+                                        <span className="software-text">JS</span>
+
                                 </div>
                                 </div>
                                 <a href="https://kylebarter.github.io/Mastermind/">
@@ -89,9 +95,11 @@ export default function Portfolio(){
                                         <img src="https://i.imgur.com/uCXTSvX.png" className='used-software' />
                                 </div>
                                 </div>
-                                <div className='port-image-container'>
-                                        <img className="port-image" src="https://i.imgur.com/MziI0V7.png" draggable="false"/>
-                                </div>
+                                <a href="https://adoptly-renad.fly.dev/">
+                                        <div className='port-image-container'>
+                                                <img className="port-image" src="https://i.imgur.com/MziI0V7.png" draggable="false"/>
+                                        </div>
+                                </a>
                         </div>
                         <div className='project-container cheft-container'>
                                 <div className='cheft-details' >
