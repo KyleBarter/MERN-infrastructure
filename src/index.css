@@ -328,6 +328,10 @@ code {
   width: 50%;
   margin-top: 20px;
   flex-wrap: wrap;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vmin;
 }
 
 .used-software {
@@ -335,6 +339,13 @@ code {
   padding: 2%;
   max-height: 40px;
 }
+
+.used-software-container img{
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+}
+
 
 @media (max-width: 768px) {
   .portfolio-container {

@@ -23,14 +23,18 @@ export default function Portfolio(){
                                 <p>My first project with General Assembly during my Software Engineering Immersive course.</p>
                                 <p> We had a week to create a browser game with win / loss logic, in which I opted to create Mastermind.</p>
                                 <div className='used-software-container'>
-                                        <img src="https://i.imgur.com/IKbK4gz.png" className='used-software' id="HTML"/>
-                                        <span className="software-text">HTML5</span>
-
-                                        <img src="https://i.imgur.com/uqRQyO9.png" className='used-software' id="CSS"/>
-                                        <span className="software-text">CSS</span>
-
-                                        <img src="https://i.imgur.com/dDGV7As.png" className='used-software' id="JS"/>
-                                        <span className="software-text">JS</span>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/IKbK4gz.png" className='software-img' id="HTML"/>
+                                                <span className="software-text">HTML5</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/uqRQyO9.png" className='software-img' id="CSS"/>
+                                                <span className="software-text">CSS</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/dDGV7As.png" className='software-img' id="JS"/>
+                                                <span className="software-text">JS</span>
+                                        </div>
 
                                 </div>
                                 </div>
@@ -56,12 +60,31 @@ export default function Portfolio(){
                                         code, a goal planning app to help anyone who might find themselves stuck in a hole they
                                         can't get out of.</p>
                                 <div className='used-software-container'>
-                                        <img src="https://i.imgur.com/IKbK4gz.png" className='used-software' />
-                                        <img src="https://i.imgur.com/uqRQyO9.png" className='used-software' />
-                                        <img src="https://i.imgur.com/lMnU55u.png" className='used-software' />
-                                        <img src="https://i.imgur.com/TE2Ms71.png" className='used-software' />
-                                        <img src="https://i.imgur.com/P4iAuie.png" className='used-software' />
-                                        <img src="https://i.imgur.com/YN50Dag.png" className='used-software' />
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/IKbK4gz.png" className='software-img' id="HTML"/>
+                                                <span className='software-text'>HTML5</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/uqRQyO9.png" className='software-img' id="CSS"/>
+                                                <span className='software-text'>CSS</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/lMnU55u.png" className='software-img' id="node"/>
+                                                <span className='software-text'>Node</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/TE2Ms71.png" className='software-img' id="express"/>
+                                                <span className='software-text'>Express</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/P4iAuie.png" className='software-img' id="monbgoDB"/>
+                                                <span className='software-text'>Mongo DB</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/YN50Dag.png" className='software-img' id="oauth"/>
+                                                <span className='software-text'>OAuth 2.0</span>
+                                        </div>
+
                                 </div>
                                 </div>
                                 <a href="https://24hours.fly.dev/today">
@@ -87,12 +110,31 @@ export default function Portfolio(){
                                         'pawfect' match with pets up for adoption; in an attempt to give every animal a deserved home.
                                 </p>
                                 <div className='used-software-container'>
-                                        <img src="https://i.imgur.com/IKbK4gz.png" className='used-software' />
-                                        <img src="https://i.imgur.com/uqRQyO9.png" className='used-software' />
-                                        <img src="https://i.imgur.com/dYacXky.png" className='used-software' />
-                                        <img src="https://i.imgur.com/N60EtBO.png" className='used-software' />
-                                        <img src="https://i.imgur.com/gO7ES1a.png" className='used-software' />
-                                        <img src="https://i.imgur.com/uCXTSvX.png" className='used-software' />
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/IKbK4gz.png" className='software-img' id="HTML"/>
+                                                <span className='software-text'>HTML5</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/uqRQyO9.png" className='software-img' id="CSS"/>
+                                                <span className='software-text'>CSS</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/dYacXky.png" className='software-img' id="python"/>
+                                                <span className='software-text'>Python</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/N60EtBO.png" className='software-img' id="django"/>
+                                                <span className='software-text'>Django</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/gO7ES1a.png" className='software-img' id="postgreSQL"/>
+                                                <span className='software-text'>PSQL</span>
+                                        </div>
+                                        <div className='software-container'>
+                                                <img src="https://i.imgur.com/uCXTSvX.png" className='software-img' id="aws"/>
+                                                <span className='software-text'>AWS</span>
+                                        </div>
+                                
                                 </div>
                                 </div>
                                 <a href="https://adoptly-renad.fly.dev/">
@@ -103,32 +145,60 @@ export default function Portfolio(){
                         </div>
                         <div className='project-container cheft-container'>
                                 <div className='cheft-details' >
-                        {/* <Link to="/portfolio/cheft" className='port-link'> */}
-                                <h1>Cheft</h1>
-                        {/* </Link> */}
-                                <div className='git-link-container'>
-                                        <a href="https://github.com/KyleBarter/cheft">
-                                                <img className="git-link" src="https://i.imgur.com/mIkjkqc.png" />
-                                        </a>
-                                </div>
-                                <p>My fourth and final project during my time with General Assembly was to create an app using React.js for the front end.
-                                        We could create a functioning CRUD app, or something which consumes an API.
-                                </p>
-                                <p>Cheft's purpose is to act as a place for users to store all their recipes, I certainly can't remember them all myself! As 
-                                        well as this, the user can share and save other user's recipes, and then meal plan for the week so they can see the 
-                                        ingredients needed for their weekly shop.
-                                </p>
-                                <div className='used-software-container'>
-                                        <img src="https://i.imgur.com/IKbK4gz.png" className='used-software' />
-                                        <img src="https://i.imgur.com/uqRQyO9.png" className='used-software' />
-                                        <img src="https://i.imgur.com/P4iAuie.png" className='used-software' />
-                                        <img src="https://i.imgur.com/TE2Ms71.png" className='used-software' />
-                                        <img src="https://i.imgur.com/RYP0JR8.png" className='used-software' />
-                                        <img src="https://i.imgur.com/lMnU55u.png" className='used-software' />
-                                        <img src="https://i.imgur.com/bATizxl.png" className='used-software' />
-                                        <img src="https://i.imgur.com/BhfJEwG.png" className='used-software' />
-                                        <img src="https://i.imgur.com/w9Sl2Ji.png" className='used-software' />
-                                </div>
+                                        {/* <Link to="/portfolio/cheft" className='port-link'> */}
+                                        <h1>Cheft</h1>
+                                        {/* </Link> */}
+                                        <div className='git-link-container'>
+                                                <a href="https://github.com/KyleBarter/cheft">
+                                                        <img className="git-link" src="https://i.imgur.com/mIkjkqc.png" />
+                                                </a>
+                                        </div>
+                                        <p>My fourth and final project during my time with General Assembly was to create an app using React.js for the front end.
+                                                We could create a functioning CRUD app, or something which consumes an API.
+                                        </p>
+                                        <p>Cheft's purpose is to act as a place for users to store all their recipes, I certainly can't remember them all myself! As 
+                                                well as this, the user can share and save other user's recipes, and then meal plan for the week so they can see the 
+                                                ingredients needed for their weekly shop.
+                                        </p>
+                                        <div className='used-software-container'>
+                                                <div className='software-container'>
+                                                        <img src="https://i.imgur.com/IKbK4gz.png" className='software-img' id="HTML"/>
+                                                        <span className='software-text'>HTML5</span>
+                                                </div>
+                                                <div className='software-container'>
+                                                        <img src="https://i.imgur.com/uqRQyO9.png" className='software-img' id="CSS"/>
+                                                        <span className='software-text'>CSS</span>
+                                                </div>
+                                                <div className='software-container'>
+                                                        <img src="https://i.imgur.com/P4iAuie.png" className='software-img' id="mongoDB"/>
+                                                        <span className='software-text'>Mongo DB</span>
+                                                </div>
+                                                <div className='software-container'>
+                                                        <img src="https://i.imgur.com/TE2Ms71.png" className='software-img' id="exoress"/>
+                                                        <span className='software-text'>Express</span>
+                                                </div>
+                                                <div className='software-container'>
+                                                        <img src="https://i.imgur.com/RYP0JR8.png" className='software-img' id="react"/>
+                                                        <span className='software-text'>React</span>
+                                                </div>
+                                                <div className='software-container'>
+                                                        <img src="https://i.imgur.com/lMnU55u.png" className='software-img' id="node"/>
+                                                        <span className='software-text'>Node</span>
+                                                </div>
+                                                <div className='software-container'>
+                                                        <img src="https://i.imgur.com/bATizxl.png" className='software-img' id="JWT"/>
+                                                        <span className='software-text'>JWT</span>
+                                                </div>
+                                                <div className='software-container'>
+                                                        <img src="https://i.imgur.com/w9Sl2Ji.png" className='software-img' id="tableplus"/>
+                                                        <span className='software-text'>Table Plus</span>
+                                                </div>
+                                                <div className='software-container'>
+                                                        <img src="https://i.imgur.com/BhfJEwG.png" className='software-img' id="postman"/>
+                                                        <span className='software-text'>Postman</span>
+                                                </div>
+
+                                        </div>
                                 </div>
                                 <a href="https://cheft-deploy-028013bc2913.herokuapp.com/?fbclid=IwAR0dAGzHxu_H6ng86rb_xMyUnq6Lzw1SrG0aOB7PPgJdN0cOOoDs4G8UKZM">
                                         <div className='port-image-container'>
