@@ -24,15 +24,15 @@ export default function About(){
                     Humans are complex and every individual has their own needs separate from the rest, my goal is to reach out 
                     to humans in every corner of the globe as best I can. I took the next step into 
                     programming as I believe I can achieve this best with the capability to create anything. 
-                    I find myself often thinking 'I wish there was an app that did this', and now with these skills I have full control 
-                   over creating the closest application possible to perfect; making people’s lives easier and simpler (including my own).
+                    I find myself often thinking 'I wish there was an app that did this', and now with these skills I have can create 
+                    applications to make people’s lives easier and simpler (including my own).
                 </p>
                 
                 <p id="brand-statement">
                     I’ve grown as a developer through the software engineering immersive bootcamp with General 
-                    Assembly, where I have picked up many skills and languages such as JavaScript and Python as well as others below. This 
-                    bootcamp has also prepared me for a career in tech through group project work a better understanding of GitHub and using branches 
-                    to work more efficiently, also through teaching industry best practices to ensure I'm ready for a career in tech.
+                    Assembly, where I have developed many skills and languages such as JavaScript and Python as well as others below. This 
+                    bootcamp has also prepared me for a career in tech through group project work, a better understanding of GitHub and using branches 
+                    to work more efficiently. I've also learnt industry best practices to ensure I'm ready for a career in tech.
                 </p>
                 <p id="brand-statement">
                     Have a hover below to see all the technologies I have become proficient in, both in my own time and with General Assembly.
