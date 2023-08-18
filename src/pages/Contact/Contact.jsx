@@ -1,6 +1,13 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Contact(){
+    useEffect(() => {
+        window.scrollTo({
+                top: 1100,
+                behavior: 'smooth'
+        })
+    })
+    
     const FORM_ENDPOINT = "https://public.herotofu.com/v1/14c30210-350f-11ee-9ba1-bb0a8466b803"
     const [submitted, setSubmitted] = useState(false)
     const handleSubmit = (e) => {
@@ -43,6 +50,7 @@ export default function Contact(){
             </>
         );
     }
+
 
 
     return (    

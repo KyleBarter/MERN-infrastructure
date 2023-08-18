@@ -1,11 +1,18 @@
-import { Fade } from 'react-awesome-reveal'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 
 
 export default function CV(){
+    useEffect(() => {
+        window.scrollTo({
+                top: 1160,
+                behavior: 'smooth'
+        })
+    })
+    
+    
     const timelineExperience = [
         {
             id: 1,

@@ -30,13 +30,12 @@ export default function About(){
                 
                 <p id="brand-statement">
                     I’ve grown as a developer through the software engineering immersive bootcamp with General 
-                    Assembly, where I have picked up JavaScript, Python, HTML and CSS. As well as operating in a 
-                    MERN stack, using the MVC model and other stacks such as PostgreSQL and Django. This bootcamp has also prepared 
-                    me for a career in tech through group project work a better understanding of GitHub and using branches to work 
-                    more efficiently.
+                    Assembly, where I have picked up many skills and languages such as JavaScript and Python as well as others below. This 
+                    bootcamp has also prepared me for a career in tech through group project work a better understanding of GitHub and using branches 
+                    to work more efficiently, also through teaching industry best practices to ensure I'm ready for a career in tech.
                 </p>
                 <p id="brand-statement">
-                    Have a hover below to see all the technologies I have become proficient with in both my own time and with General Assembly.
+                    Have a hover below to see all the technologies I have become proficient in, both in my own time and with General Assembly.
                 </p>
 
                 <div className="software">

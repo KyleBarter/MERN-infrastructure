@@ -1,10 +1,15 @@
 import { Link } from 'react-router-dom'
 import { Fade } from "react-awesome-reveal";
-import { forwardRef } from "react"
+import { forwardRef, useEffect } from "react"
 
 
 export default function Portfolio(){
-
+        useEffect(() => {
+                window.scrollTo({
+                        top: 1160,
+                        behavior: 'smooth'
+                })
+        })
 
 
     return (

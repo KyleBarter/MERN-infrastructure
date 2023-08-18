@@ -125,9 +125,7 @@ code {
 } 
 
 .photography {
-  /* display: grid;
-  grid-template-columns: 100% 100% 100% 100%;
-  grid-gap: 20px 20px;  */
+  position: relative
 }
 
 .photography img {
@@ -137,30 +135,24 @@ code {
   margin: 6px;
 }
 
-/* .photography-individual {
-  position: relative;
-  text-align: center;
-} */
-
-/* .photog-text {
+.photo-text {
   position: absolute;
-  bottom: 0;
+  bottom: 1%;
   left: 0;
-  right: 0;
-  background-color: #240046;
-  color: transparent;
-  text-align: center;
-  padding: 5px;
-  visibility: hidden; 
+  color: #e4e4e4;
+  background-color: rgba(36, 0, 70, 0.7);
+  width: 300px;
+  padding: 8px;
+  box-sizing: border-box;
   opacity: 0;
-  font-weight: bold;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease-in-out;
+  margin: 6px
 }
 
-.photography-individual:hover .photog-text {
-  visibility: visible;
-  opacity: 1;
-} */
+.photography:hover .photo-text {
+  opacity: 1; 
+}
+
 
 /* ! Nav */
 .nav-container {
@@ -194,6 +186,11 @@ code {
 }
 
 .nav-link:hover {
+  color: #fc6601;
+  font-weight: bold;
+}
+
+.nav-link:active {
   color: #fc6601;
   font-weight: bold;
 }
@@ -453,6 +450,7 @@ code {
 
 .form-container {
   margin-bottom: 30px;
+  padding: 40px;
 }
 
 .contact-form {
