@@ -5,6 +5,7 @@ import './App.css';
 import AuthPage from '../AuthPage/AuthPage';
 import LoginForm from '../LoginForm/LoginForm';
 import NavBar from '../../components/NavBar/NavBar';
+// import Hamburger from '../../components/Hamburger/Hamburger';
 import About from '../About/About'
 import Portfolio from '../Portfolio/Portfolio';
 import Photography from '../Photography/Photography';
@@ -21,6 +22,7 @@ import VideoDubai from '../VideoDubai/VideoDubai';
 import VideoMandarins from '../VideoMandarin/VideoMandarins'
 import VideoSkwad from '../VideoSkwad/VideoSkwad'
 import VideoNoProblem from '../VideoNP/VideoNP';
+
 
 export default function App() {
   const [user, setUser] = useState(getUser());

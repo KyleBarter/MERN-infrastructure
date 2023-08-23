@@ -67,6 +67,12 @@ code {
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .me-container-container {
+    display: none;
+  }
+}
+
 /* ? software imgs */
 .software {
   display: grid; 
@@ -113,6 +119,14 @@ code {
 .software-container:hover .software-img {
   visibility: hidden;
   opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .software {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+  }
+  
 }
 
 /* ! Photog */
@@ -193,6 +207,91 @@ code {
 .nav-link:active {
   color: #fc6601;
   font-weight: bold;
+}
+
+.hamburger-btn {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.nav-me-container {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .App {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about {
+    margin-top: 20px;
+  }
+
+  .nav-me-container-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .nav-me-container {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .item.nav-me-container-container {
+    align-self: flex-start;
+    margin-top: 13px;
+    margin-left: 30px;
+  }
+  
+  .item.hamburger-item {
+    align-self: flex-end;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+
+  .bar {
+    background-color: #fc6601;
+  }
+
+  .navbar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hamburger-btn {
+    cursor: pointer;
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-direction: column;
+    color: #fc6601;
+  }
+
+
+  .nav-link {
+    display: none;
+  }
+
 }
 
 /* ! Portfolio */

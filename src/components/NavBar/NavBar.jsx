@@ -15,6 +15,11 @@ export default function NavBar() {
   return (
     <div className='nav-container'>
       <nav className='navbar'>
+        <div className="nav-me-container-container item">
+            <div className="nav-me-container">
+                <img src="https://i.imgur.com/9OnseTY.jpg" id="me"/>
+            </div>
+        </div>
         <Link to="/portfolio" className='nav-link' onClick={handleClick} ref={ref}>Portfolio</Link>
         &nbsp;  &nbsp;
         <Link to="/CV" className='nav-link' onClick={handleClick} ref={ref}>Experience</Link>
@@ -24,8 +29,14 @@ export default function NavBar() {
         {/* <Link to="/videos" className='nav-link'>Video Editing</Link> */}
         {/* &nbsp;  &nbsp; */}
         <Link to="/contact" className='nav-link' onClick={handleClick} ref={ref}>Contact</Link>
-        {/* <p>Welcome, {user.name}</p>
-        &nbsp; &nbsp;<Link to="" onClick={handleLogOut}>Log Out</Link> */}
+
+        <div className='hamburger-item item'>
+          <div className='hamburger-btn'>
+            <span className='bar'></span>
+            <span className='bar'></span>
+            <span className='bar'></span>
+          </div>
+        </div>
       </nav>
     </div>
   );
