@@ -125,6 +125,15 @@ code {
   .software {
     display: grid;
     grid-template-columns: repeat(4, 50px);
+    gap: 20px;
+  }
+
+  .software-container:nth-child(17) {
+    grid-column: 2;
+  }
+
+  .software-container:nth-child(18) {
+    grid-column: 3;
   }
   
 }
