@@ -6,10 +6,12 @@ import { useState, useEffect } from 'react'
 
 export default function CV(){
     useEffect(() => {
-        window.scrollTo({
-                top: 1160,
-                behavior: 'smooth'
-        })
+        if(window.innerWidth > 768){       
+                window.scrollTo({
+                        top: 1160,
+                        behavior: 'smooth'
+                })
+        } 
     })
     
     
