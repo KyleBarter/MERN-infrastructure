@@ -82,6 +82,11 @@ export default function CV(){
                                 <h5 className='vertical-timeline-element-subtitle'>{e.business}</h5>
                                 <h5 className='vertical-timeline-element-subtitle'>{e.location}</h5>
                                 <p id="description">{e.summary}</p>
+                                <div className='expand'>
+                                    <div className='dot'></div>
+                                    <div className='dot'></div>
+                                    <div className='dot'></div>
+                                </div>
                         </VerticalTimelineElement>
                     )
                 })

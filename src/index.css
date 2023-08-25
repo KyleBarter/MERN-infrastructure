@@ -184,7 +184,20 @@ code {
 }
 
 /* ! PHOTOG MEDIA RESPONSIVE */
+@media (max-width: 768px) {
+  .photography img {
+    width: 98px;
+    height: 98px;
+  }
 
+  .photo-text {
+    width: 98px;
+    font-size: 10px;
+    bottom: 3%;
+    margin: 6px;
+  }
+
+}
 
 /* ! Nav */
 .nav-container {
@@ -512,17 +525,23 @@ code {
 
 @media (max-width: 768px) {
   .portfolio-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .project-container {
     display: flex;
     flex-direction: column;
   }
-
-  .port-image-container {
-    /* Change grid-column to 1 for smaller screens */
-    grid-column: 1;
-    justify-content: center;
-    align-items: center;
-    /* You can modify the width, height, and other styles for smaller screens if needed */
+  .git-link-container {
+    height: 30px;
+    width: 30px;
   }
+  .port-image-container {
+    width: 65vmin;
+    height: 65vmin;
+  }
+  
+
 }
 
 /* ! Individual project show */
@@ -604,13 +623,38 @@ code {
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1s ease-in-out, opacity 0.5s ease-in-out;}
+  transition: max-height 1s ease-in-out, opacity 0.5s ease-in-out;
+}
 
 .vertical-timeline-element-content:hover #description{
   max-height: 1000px; /* Adjust this value based on your content's maximum height */
   opacity: 1;
 }
 
+.vertical-timeline-element-content:hover .expand {
+  opacity: 0;
+}
+
+.expand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  transition: max-height 1s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:#9D4EDD; /* Adjust the color as needed */
+  cursor: pointer;
+  transition: max-height 1s ease-in-out, opacity 2s ease-in-out;
+}
+
+.dot:hover {
+  background-color: #9D4EDD; /* Adjust the hover color as needed */
+}
 
 /* ! Contact */
 

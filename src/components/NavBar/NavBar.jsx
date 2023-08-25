@@ -16,7 +16,7 @@ export default function NavBar(handleNavLinkClick) {
     <div className='nav-container'>
       <nav className='navbar'>
         <Link to="/" onClick={() => {
-                  setIsNavExpanded(!isNavExpanded)
+                  setIsNavExpanded(false)
                 }}>
           <div className="nav-me-container-container item">
               <div className="nav-me-container">
