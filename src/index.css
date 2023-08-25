@@ -69,7 +69,7 @@ code {
 
 /* ! ABOUT MEDIA RESPONSIVE */
 
-@media (max-width: 768px) {
+@media (max-width: 550px) {
   .me-container-container {
     display: none;
   }
@@ -274,7 +274,7 @@ code {
 }
 
 /* ! NAV MEDIA RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 550px) {
 
   .nav-me-container-container {
     display: flex;

@@ -15,9 +15,10 @@ export default function About(){
                 <h3>Junior Full Stack Software Developer</h3>
                 <br />
                 <p id="brand-statement">
-                    I've always had a creative itch be that through filming, video editing or 
-                    through my photography. Coding not only scratches that itch, but keeps me coming back for more 
-                    in the ever-evolving world of tech.
+                    Having always had a creative itch be that through filming, video editing or 
+                    through my photography. Discovering and learning to code was a game changer as not only does coding scratches that itch, 
+                    but keeps me coming back for more in the ever-evolving world of tech. I hope you enjoy browsing through my site, 
+                    built using React.
                 </p>
                 <p id="brand-statement">
                     Humans are complex and every individual has their own needs separate from the rest, my goal is to reach out 

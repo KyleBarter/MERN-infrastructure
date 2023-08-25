@@ -5,12 +5,6 @@ import About from '../../pages/About/About';
 export default function NavBar(handleNavLinkClick) {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
   const [aboutVisible, setAboutVisible] = useState(true)
-
-  const onNavClick = () => {
-    if (window.innerWidth <= 768) {
-      setAboutVisible(false)
-    }
-  }
   
   return (
     <div className='nav-container'>

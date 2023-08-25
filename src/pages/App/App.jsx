@@ -28,7 +28,7 @@ export default function App() {
   const [user, setUser] = useState(getUser());
 
 
-  if (window.innerWidth > 768) {
+  if (window.innerWidth > 550) {
     return (
       <main className="App">
             <>
@@ -55,7 +55,7 @@ export default function App() {
             </>
       </main>
     );
-  } else if (window.innerWidth <= 768){
+  } else if (window.innerWidth <= 550){
     return (
       <main className="App">
       <>

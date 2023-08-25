@@ -2,9 +2,9 @@ import { useEffect } from "react"
 
 export default function Photography(){
     useEffect(() => {
-        if(window.innerWidth > 768){       
+        if(window.innerWidth > 550){       
                 window.scrollTo({
-                        top: 1160,
+                        top: 1250,
                         behavior: 'smooth'
                 })
         } 
