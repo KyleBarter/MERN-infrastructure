@@ -27,6 +27,7 @@ import VideoNoProblem from '../VideoNP/VideoNP';
 export default function App() {
   const [user, setUser] = useState(getUser());
 
+
   if (window.innerWidth > 768) {
     return (
       <main className="App">
@@ -59,9 +60,9 @@ export default function App() {
       <main className="App">
       <>
         <NavBar user={user} setUser={setUser}/>
-        <About />
         <Routes>
           {/* Route components in here */}
+          <Route path="/" element={<About />}/>
           <Route path="/portfolio" element={<Portfolio/>} />
           <Route path="/photography" element={<Photography/>} />
           <Route path="/videos" element={<VideoEditing/>} />

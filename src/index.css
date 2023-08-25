@@ -67,6 +67,8 @@ code {
   font-weight: bold;
 }
 
+/* ! ABOUT MEDIA RESPONSIVE */
+
 @media (max-width: 768px) {
   .me-container-container {
     display: none;
@@ -124,6 +126,8 @@ code {
   opacity: 0;
 }
 
+/* ? SOFTWARE MEDIA RESPONSIVE */
+
 @media (max-width: 768px) {
   .software {
     display: grid;
@@ -178,6 +182,8 @@ code {
 .photography:hover .photo-text {
   opacity: 1; 
 }
+
+/* ! PHOTOG MEDIA RESPONSIVE */
 
 
 /* ! Nav */
@@ -254,6 +260,7 @@ code {
   display: none;
 }
 
+/* ! NAV MEDIA RESPONSIVE */
 @media (max-width: 768px) {
 
   .nav-me-container-container {
@@ -319,7 +326,7 @@ code {
 
   .navigation-menu ul {
     position:absolute;
-    top: 60px;
+    top: 80px;
     left:0;
     flex-direction: column;
     width: 100%;
@@ -329,16 +336,20 @@ code {
   }
   .navigation-menu.expanded ul {
     display: block;
+    font-weight: bolder;
+    font-size: 20px;
   }
 
   .navigation-menu li {
     text-align: center;
     margin: 0;
+    padding: 10px;
   }
   .navigation-menu li a {
     color: #fc6601;
     width: 100%;
     padding: 1.5rem 0;
+    font-size: 15px;
   }
   .navigation-menu li:hover {
     background-color:#240046;
@@ -497,6 +508,8 @@ code {
 }
 
 
+/* ! PORTFOLIO MEDIA RESPONSIVE */
+
 @media (max-width: 768px) {
   .portfolio-container {
     display: flex;
@@ -512,7 +525,7 @@ code {
   }
 }
 
-/* ! Portfolio show */
+/* ! Individual project show */
 
 .portfolio-show-container {
   display: grid;
@@ -625,6 +638,7 @@ code {
 .contact-form button {
   margin-bottom: 30px;
   color: #240046;
+  border: none;
   border-radius: 15px;
   font-family: 'Quicksand', sans-serif;
   color: #240046;
@@ -663,6 +677,25 @@ code {
 
 .form-container img:hover{
   width: 45px;
+}
+
+/* ! CONTACT MEDIA RESPONSIVE */
+
+@media (max-width: 768px) {
+  .contact-form {
+    width: 90%;
+    box-shadow: 0 0 0 3px #9D4EDD;
+  }
+
+  .contact-form input {
+    margin: 5%;
+    width: 40vmin;
+  }
+
+  .contact-form textarea {
+    width: 50vmin;
+    padding: 30px;
+  }
 }
 
 /* ! Videos */
